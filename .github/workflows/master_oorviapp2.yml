@@ -34,5 +34,5 @@ jobs:
       with:
         app-name: 'oorviapp2'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_cd39690cae4a4092861bd339ab2bd310 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a7f50d215dac46a29c45727a3286a904 }}
         package: '.\myapp.zip'
